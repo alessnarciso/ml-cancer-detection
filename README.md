@@ -17,7 +17,7 @@ The neural networks were built using TensorFlow and Keras. The second neural net
 
 The other machine learning techniques were implemented using Sklearn.
 
-Overall, the most accurate solutions were the basic shallow neural network and the linear regression classifier, likely because most of the data was linearly separable.
+Overall, the most accurate solutions were the basic shallow neural network and the linear regression classifier, likely because most of the data was linearly separable. This had an test accuracy of around 98% and an AUC of about 0.99 in the test data AUC ROC curve. 
 
 When conducting feature importance analysis on the linear regression model, it seems that the most important feature for predicting malignant tumors is the mean fractal dimension.
 
